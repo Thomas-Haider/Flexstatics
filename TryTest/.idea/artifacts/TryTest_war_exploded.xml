@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TryTest:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TryTest_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TryTest/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TryTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="PrimeFaces-6.1" />
+          <element id="library" level="project" name="hamcrest-core-1.3" />
+          <element id="library" level="project" name="javax.faces-2.2.1" />
+          <element id="library" level="project" name="org.restlet.ext.jaxb" />
+          <element id="library" level="project" name="org.restlet" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <h:outputScript library="primefaces" firstName="jquery/jquery.js" target="head"/>
+</h:head>
+
+<f:view>
+    <h:body>
+        <h:form id="menu">
+            <p:menubar>
+                <p:submenu label="Energie">
+                    <p:menuitem value="Show customers" action="customers"/>
+                    <p:menuitem value="Add customer" action="addCustomer"/>
+                </p:submenu>
+            </p:menubar>
+        </h:form>
+
+    </h:body>
+</f:view>
+</html>
